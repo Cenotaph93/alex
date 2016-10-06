@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "999574874531",
+    "project_id": "firebase-museumsfuehrer"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999574874531:android:85dec1bfdc5413c0",
+        "android_client_info": {
+          "package_name": "com.hsh.duensina.museumsfuehrer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqnEfg5liWvrSi1mB-jeCcqYnig4NBsTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

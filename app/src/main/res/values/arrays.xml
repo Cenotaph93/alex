@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ages">
+        <item name="child">Kind</item>
+        <item name="teenager">Jugendlicher</item>
+        <item name="adult">Erwachsener</item>
+    </string-array>
+
+    <string-array name="infoForm">
+        <item>Text</item>
+        <item>Bildern</item>
+        <item>Audios</item>
+        <item>Videos</item>
+    </string-array>
+
+    <string-array name="interestsForm">
+        <item name="neuzeit">Neuzeit</item>
+        <item name="fruehzeit">Frühzeit</item>
+        <item name="lebendetiere">Lebende Tiere</item>
+        <item name="praeptiere">Präparierte Tiere</item>
+        <item name="skelette">Skelette</item>
+    </string-array>
+
+    <string-array name="interestsFormData">
+        <item name="neuzeit">1</item>
+        <item name="fruehzeit">2</item>
+        <item name="lebendetiere">3</item>
+        <item name="praeptiere">4</item>
+        <item name="skelette">5</item>
+    </string-array>
+</resources>

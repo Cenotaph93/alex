@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Museumsführer</string>
+    <string name="age">Meine Altersgruppe:</string>
+    <string name="infos">Infos in Form von:</string>
+    <string name="details">Detailgrad:</string>
+    <string name="pref_savedata">Inhalte lokal sichern</string>
+    <string name="pref_savedata_summ">Legen Sie fest, ob Sie die erhaltenen Inhalte später nochmals abrufen können.</string>
+    <string name="pref_age">Meine Altersgruppe</string>
+    <string name="pref_age_summ">Geben Sie hier Ihre Altersgruppe an, um auf Sie zugeschnittene Informationen zu erhalten.</string>
+
+
+    <string name="doneText">Alles klar, das war\'s schon! \n\nSie können die App nun schließen. \nWir benachrichtigen Sie automatisch, falls wir zusätzliche Infos für Sie haben.</string>
+    <string name="CloseButton">Schließen</string>
+    <string name="did_you_know_string">Schon gewusst?</string>
+
+    <string name="title_activity_museum_guide_launch_screen">Museumsführer
+    </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="interests">Meine Interessen:</string>
+    <string name="launchScreenText">Museumsführer des Landesmuseums Hannover</string>
+    <string name="launch_incooperation">In Kooperation mit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_interests">Meine Interessen</string>
+    <string name="pref_interests_summ">Wofür interessieren Sie sich besonders? Geben Sie Ihre Vorlieben hier an.</string>
+    <string name="save_data_info">Geben Sie hier an, ob Sie empfangene Infos auf Ihrem Gerät speichern möchten, um sie später erneut anschauen zu können.</string>
+    <string name="drawer_close">Schließen</string>
+    <string name="drawer_open">Öffnen</string>
+    <string name="savedataset">saveDataSet</string>
+    <string name="age_string">age</string>
+    <string name="interests_strings">interests</string>
+</resources>

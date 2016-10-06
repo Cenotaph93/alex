@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+
+    tools:context="com.hsh.duensina.museumsfuehrer.MuseumGuideLaunchScreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/launchScreenImageView"
+        android:src="@drawable/logo"
+        android:layout_weight="0.6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/launchScreenText"
+            android:id="@+id/launchScreenTextView"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textAlignment="center"
+            android:layout_alignParentEnd="false" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/launch_incooperation"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:layout_gravity="left|bottom|center_horizontal"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textAlignment="viewEnd"
+            android:textStyle="italic"
+            android:singleLine="false" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:src="@drawable/hsh_f4_logo" />
+    </LinearLayout>
+
+</LinearLayout>

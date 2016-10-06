@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hsh.duensina.museumsfuehrer.view.MuseumGuideMainMenuFragment"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:layout_marginTop="90dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swipeUpImgView"
+            android:src="@drawable/dragicon_neu"
+            android:nestedScrollingEnabled="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Wischen Sie nach oben, um eine neue Tour zu starten..."
+            android:id="@+id/swipeUpTextView"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentEnd="false"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp" />
+    </RelativeLayout>
+</LinearLayout>
